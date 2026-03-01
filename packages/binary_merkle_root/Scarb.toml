@@ -2,11 +2,14 @@
 name = "zk_kit_binary_merkle_root"
 version = "0.1.0"
 edition = "2025_12"
+description.workspace = true
+repository.workspace = true
+documentation.workspace = true
+homepage.workspace = true
+license.workspace = true
+keywords.workspace = true
 
 # See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest.html
-
-[cairo]
-enable-gas = false
 
 [dependencies]
 

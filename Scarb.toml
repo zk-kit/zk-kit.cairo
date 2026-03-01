@@ -5,3 +5,16 @@ members = [
 
 [workspace.dependencies]
 cairo_test = "2.16.0"
+
+[cairo]
+enable-gas = false
+
+[workspace.package]
+description = "Reusable Cairo circuits for building zero-knowledge protocols and applications"
+repository = "https://github.com/zk-kit/zk-kit.cairo"
+documentation = "https://github.com/zk-kit/zk-kit.cairo#readme"
+homepage = "https://github.com/zk-kit/zk-kit.cairo"
+license = "MIT"
+keywords = [
+    "zero-knowledge"
+]
