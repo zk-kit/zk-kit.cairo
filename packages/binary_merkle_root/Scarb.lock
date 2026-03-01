@@ -2,5 +2,5 @@
 version = 1
 
 [[package]]
-name = "zk_kit_binary_merkle_root"
+name = "zk_kit_cairo"
 version = "0.1.0"
