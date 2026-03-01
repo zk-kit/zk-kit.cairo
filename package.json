@@ -3,6 +3,6 @@
   "packageManager": "yarn@4.12.0",
   "scripts": {
     "build": "scarb build",
-    "test": "scarb test"
+    "test": "cd tests && scarb test"
   }
 }
