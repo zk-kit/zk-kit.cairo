@@ -2,3 +2,18 @@ target
 
 # misc
 .DS_Store
+
+# Dependency directories
+node_modules/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# yarn v3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
