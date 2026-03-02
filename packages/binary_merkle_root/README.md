@@ -2,20 +2,26 @@
 
 This project contains the Binary Merkle Root Cairo library. It's used to calculate the root of a binary Merkle tree (including the LeanIMT).
 
-## Import the library
+## Installation
 
-To import the library, add the lib to the `Scarb.toml` file. For example:
+Add the package to your project using Scarb:
+
+```bash
+scarb add zk_kit_binary_merkle_root
+```
+
+Or manually add it to your `Scarb.toml`:
 
 ```toml
 [dependencies]
-cairo_binary_merkle_root = { git = "https://github.com/vplasencia/cairo-binary-merkle-root" }
+zk_kit_binary_merkle_root = "0.1.0"
 ```
 
 ## Usage
 
 ```cairo
 use core::integer::{u32, u8};
-use cairo_binary_merkle_root::binary_merkle_root::binary_merkle_root;
+use zk_kit_binary_merkle_root::binary_merkle_root::binary_merkle_root;
 
 #[executable]
 fn main(
@@ -33,16 +39,4 @@ fn main(
     // Output the Merkle root.
     merkle_root
 }
-```
-
-## Build
-
-```sh
-scarb build
-```
-
-## Run tests
-
-```sh
-scarb test
 ```
